@@ -1,0 +1,32 @@
+{% extends 'todoa/base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+
+    <br>
+    <br>
+
+
+  <div class="text-center">
+
+        <img src="{% static 'todoa/Logo.png' %}" class="img-fluid">
+
+        <h1 id="hometext" class="font-weight-bold">What to do</h1>
+
+
+
+            <p>What to do is a personal work organiser , where you can create, modify and see your completed works. It would help to keep your busy schedule in check</p>
+        <a role="button" class="btn btn-primary btn-lg" href="{% url 'signupuser' %}">Let's Start</a>
+      
+
+
+
+
+
+
+        </div>
+
+
+{% endblock %}
